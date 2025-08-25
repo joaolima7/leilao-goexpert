@@ -18,6 +18,8 @@ docker-compose up --build
 
 O sistema está configurado para fechar leilões automaticamente após um intervalo definido (10 minutos por padrão). Para testar essa funcionalidade, você pode ajustar o valor da variável de ambiente `AUCTION_INTERVAL` no arquivo `.env` para um tempo menor, como `1m` (1 minuto), e reiniciar os containers Docker.
 
+Há um test em /internal/infra/database/auction/create_auction_test.go
+
 ## 📌 API Endpoints
 
 ### 🔹 Auctions
